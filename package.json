@@ -1,0 +1,25 @@
+{
+  "name": "viewer-script-tag-microscopy-extension-dicom-rt-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@ohif/extension-cornerstone": "2.12.10",
+    "@ohif/extension-dicom-html": "1.3.21",
+    "@ohif/extension-dicom-microscopy": "0.52.0",
+    "@ohif/extension-dicom-pdf": "1.1.2",
+    "@ohif/extension-dicom-rt": "0.7.11",
+    "@ohif/extension-dicom-segmentation": "0.7.11",
+    "@ohif/extension-vtk": "1.12.22",
+    "ohif-vtk-extension": "0.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
